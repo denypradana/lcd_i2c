@@ -6,8 +6,8 @@ void setup() {
 }
  
 void loop(){
-  lcd.setCursor(0,0);
+  lcd.setCursor(2,0);
   lcd.print("TEST LCD i2C");
-  lcd.setCursor(0,1);
+  lcd.setCursor(2,1);
   lcd.print("Deny Pradana");
 }
